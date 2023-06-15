@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.container-principal {
+  /* border: 2px solid red;   */
+}
+
+.container-principal .carrusel {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.container-principal .container-images {
+  /* border: 1px solid green; */
+  width: 85%;
+  margin: 0 auto;
+/*   display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start; */
+}
+
+
+.container-principal .container-images .image {
+  width: 23%;
+  margin: 2% auto; 
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.container-principal .container-images .image:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+  }
+  
+
+.container-principal .container-images .image img{
+    width: 100%;
+    opacity: 0.7;
+  }
+  
+  .container-principal .container-images .image img:hover{
+    opacity: 1.5;
+  }
+  
+
+  .container-principal .container-images .image .description h6{
+    font-weight:300;
+    font-size: 1.1rem;
+    color: #EC1C24;
+  }
+
+/* fondo del botn del carrusel */
+  .carrusel .btn{
+    background-color: rgba(0, 0, 0, 0.09);
+    color: white;
+  }

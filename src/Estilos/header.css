@@ -31,14 +31,16 @@
 }
 
 
-.header .container-nav .navigation .link{
+.header .container-nav .navigation .linkNav{
     text-decoration: none;
     font-size: 1.2rem;
     color: #00AEDD ;
+    padding: 1.5%;
 }
 
-.header .container-nav .navigation .link:hover{
-    color: #EC1C24 ;
+.header .container-nav .navigation .linkNav:hover{
+    background: #EC1C24;
+    color: #FFFFFF ;
 }
 
 

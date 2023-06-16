@@ -1,3 +1,102 @@
 footer{
-    background: #cccccc;
+    background: #666666;
+}
+
+footer .section{
+    padding: 1%;
+    width: 25%;
+}
+
+footer .section .description{
+    margin-bottom: 5%;
+    text-align: center;
+    color: white;
+    font-size: 1.3rem;
+}
+
+footer .section .social-networks{
+    text-align: center;
+    width: 80%;
+    margin: 2% auto;
+}
+
+footer .section .social-networks .network{
+    font-size: 1.5rem;
+    margin: 0 2%;
+}
+
+footer .section .social-networks .facebook{
+    color: white;
+}
+
+footer .section .social-networks .instagram{
+    color: #E4405F;
+}
+
+footer .section .social-networks .youtube{
+    color: #FF0000;
+}
+
+footer .section .job-bag{
+    text-align: center;
+}
+
+footer .section .job-bag .job{
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+    border-bottom: 2px solid #666666;
+}
+
+footer .section .job-bag .job:hover{
+    border-bottom: 2px solid white;
+}
+
+
+footer .section .linkFo{
+    font-size: .8rem;
+    color: white;
+    text-decoration: none;
+    border-bottom: 2px solid #666666;
+}
+
+footer .section .linkFo:hover{
+    color: white;
+    text-decoration: none;
+    border-bottom: 2px solid white;
+}
+
+
+
+footer .section ul{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    list-style: none;
+}
+
+footer .section .containerBo{
+    width: 80%;
+    margin: 0 auto
+}
+
+footer .section .containerBo .text{
+    color: white;
+    text-align:justify;
+    font-size: 1rem;
+}
+
+
+footer .section ul li{
+    margin: 1.3% 0;
+}
+
+footer .copy-right{
+    padding: 1% 0;
+    width: 100%;
+    background: #444444;
+}
+
+footer .copy-right h6{
+    margin: 0;
 }

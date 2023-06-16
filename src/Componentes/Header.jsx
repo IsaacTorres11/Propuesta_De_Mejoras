@@ -10,11 +10,11 @@ const Header = () => {
 
       <div className='container-nav d-flex align-items-center'>
         <nav className='navigation w-75 p-2 d-flex justify-content-around'>
-          <a className='link' href="#">Medicamentos</a>
-          <a className='link'href="#">Antibioticos</a>
-          <a className='link' href="#">Alimento Medicado</a>
-          <a className='link' href="#">Controlados</a>
-          <a className='link' href="#">Franquicias</a>
+          <a className='linkNav' href="#">Medicamentos</a>
+          <a className='linkNav'href="#">Antibioticos</a>
+          <a className='linkNav' href="#">Alimento Medicado</a>
+          <a className='linkNav' href="#">Controlados</a>
+          <a className='linkNav' href="#">Franquicias</a>
         </nav>    
       </div>
 
